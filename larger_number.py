@@ -1,3 +1,9 @@
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
-print("Larger number:", a if a > b else b)
+
+if a > b:
+    print(f"The largest is {a}")
+elif a==b:
+    print((f"Both are same number {a}"))
+else:
+    print(f"The largest is {b}")
